@@ -5,7 +5,7 @@ In onion clean arhitecture, target is to accomplish that outer layers depend on 
 There are four layers, so four folders in solution:
 1. Application
 2. Domain
-3. Data
+3. Infrastructure
 4. IoC
 5. Some kind of User Interface
 Folders are not necessary, and there could be only projects.
