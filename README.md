@@ -38,6 +38,7 @@ Infrastructure
 5. If domain entities need to be in diferent db, then add another connection to appsettings.json and use options  when adding context.
 6. Add new migration with add-migration "InitialMigration" -Context NewContextClass. This will create migration under infrastructure.
 7. Update database using: update-database -Context LibraryDbContext
+8. IoC and Data are part of infrastructure
 
 Application Core
 1. All Interfaces, Services and ViewModels go here, so create new class library.
