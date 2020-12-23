@@ -58,3 +58,6 @@ IoC - Inversion of Control
 3. Add static method RegisterServices where dependencies for each project will be added (using IServiceCollection.AddScoped<Interface, Implementation>())
 4. In startup of main project, after Configure method, add RegisterServices method, which will call DependencyContainer.RegisterServices.
 5. Call this method inside ConfigureServices
+
+
+![alt text](https://teamsmiley.github.io/assets/clean-architecture-dotnet.png)
